@@ -28,8 +28,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   secure: true,
   auth: {
-   user: 'sriharimuppalla64@gmail.com',
-   pass: 'yrbuuygnbzjiyjmm',
+   user: 'mail',
+   pass: 'password',
   },
  });
 
@@ -42,8 +42,8 @@ async function sendOTP(email) {
   let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-          user: 'sriharimuppalla64@gmail.com',
-          pass: 'yrbuuygnbzjiyjmm'
+          user: 'mail',
+          pass: 'password'
       }
   });
 
